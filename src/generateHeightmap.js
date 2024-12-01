@@ -1,4 +1,4 @@
-import SimplexNoise from 'simplex-noise';
+import { SimplexNoise } from 'https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/math/SimplexNoise.js';
 
 export function generateHeightmap(width, height, scale) {
   const noise = new SimplexNoise();
