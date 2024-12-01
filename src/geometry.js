@@ -1,5 +1,6 @@
 import * as THREE from 'three';
 import { generateHeightmap } from './generateHeightmap.js';
+import { SimplexNoise } from 'https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/math/SimplexNoise.js';
 
 const geometry = new THREE.PlaneGeometry(4000, 4000, 100, 100);
 const material = new THREE.MeshBasicMaterial({ color: 'white', wireframe: true });
